@@ -7,6 +7,8 @@ public class Monitor {
 
     private String classInfo;
 
+    private Monitor() {}
+
     public String getClassInfo() {
         return classInfo;
     }
